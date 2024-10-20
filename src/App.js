@@ -4,10 +4,10 @@ import PersonCard from './PersonCard';
 function App() {
   return (
     <div className="App" style={appStyle}>
-      <PersonCard firstName="John" lastName="Doe" age={30} hairColor="Brown" />
-      <PersonCard firstName="Jane" lastName="Smith" age={25} hairColor="Blonde" />
-      <PersonCard firstName="Mark" lastName="Jones" age={40} hairColor="Black" />
-      <PersonCard firstName="Emily" lastName="Davis" age={35} hairColor="Red" />
+      <PersonCard firstName="Doe" lastName="Jane" age={45} hairColor="Black" />
+      <PersonCard firstName="Smith" lastName="John" age={88} hairColor="Brown" />
+      <PersonCard firstName="Fillmore" lastName="Millard" age={50} hairColor="Brown" />
+      <PersonCard firstName="Smith" lastName="Maria" age={62} hairColor="Brown" />
     </div>
   );
 }
